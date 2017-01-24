@@ -1,3 +1,6 @@
+
+
+
 Array.prototype.keys()
 The keys() method returns a new Array Iterator that contains the keys for each index in the array. Objects in the array iterator accessed by .next();
 
@@ -57,6 +60,9 @@ More ex:
 ["alpha", "bravo", "charlie", "delta", "echo", "foxtrot"].copyWithin(2)
 // ["alpha", "bravo", "alpha", "bravo", "charlie", "delta"]
 
+["alpha", "bravo", "charlie", "delta", "echo", "foxtrot"].copyWithin(2, 1);
+["alpha", "bravo", "bravo", "charlie", "delta", "echo"]
+
 
 
 target: zero based index at which to start copying elements to
@@ -99,6 +105,7 @@ greetingPromise
 
 
 
+
 Destructuring
 - Destructuring allows binding using pattern matching, with support for matching arrays and objects. 
     Destructuring is fail-soft, similar to standard object lookup foo["bar"], producing undefined values when not found.
@@ -127,3 +134,24 @@ Destructuring
   ({a, b} = {a:10, b:20});
   console.log(a); // 10
   console.log(b); // 20
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  // 
