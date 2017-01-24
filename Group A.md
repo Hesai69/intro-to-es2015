@@ -114,7 +114,6 @@ JavaScript classes provide a much simpler and clealer syntax to create objects a
 
 It is a way to group all methods relating to a class together while also cleaning the code.
 
-```
 class Polygon {
   constructor(height, width) {
     this.height = height;
@@ -129,7 +128,6 @@ class Polygon {
     return this.height * this.width;
   }
 }
-```
 
 var square = new Polygon(2, 2);
 const column = new Polygon(10, 2);
@@ -142,7 +140,6 @@ trait 'need for power'. So electronics could be a class that group together all 
 This class can then be extended by adding another layer using 'super' to define all toasters for instance. 
 All toasters have a lever to push bread. So toasters are all electronics that have an on/off switch but 
 not all electronics have have a lever.
-
 
 ```
 
